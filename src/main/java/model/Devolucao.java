@@ -36,3 +36,4 @@ public class Devolucao {
         locacao.getEquipamentos().forEach(e -> e.ajustarQuantidade(1));   
     }
 }
+

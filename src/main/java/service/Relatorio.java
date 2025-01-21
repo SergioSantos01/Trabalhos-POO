@@ -25,3 +25,5 @@ public class Relatorio {
                 .collect(Collectors.toList());
     } 
 }
+
+

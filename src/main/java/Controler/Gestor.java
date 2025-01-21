@@ -70,4 +70,5 @@ public class Gestor {
         System.out.printf("Devolução registrada. Multa: R$ %.2f%n", multa);
     }
 }
+
  
