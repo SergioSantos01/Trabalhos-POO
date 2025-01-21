@@ -485,9 +485,9 @@ public class Construtec extends javax.swing.JFrame {
             panelRelatoriosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelRelatoriosLayout.createSequentialGroup()
                 .addGap(25, 25, 25)
-                .addGroup(panelRelatoriosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnRelatorioMultaClientes)
-                    .addComponent(btnRelatorioEquipamentos))
+                .addGroup(panelRelatoriosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnRelatorioEquipamentos, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnRelatorioMultaClientes))
                 .addGap(24, 24, 24)
                 .addComponent(Lrelatorios, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -650,7 +650,7 @@ public class Construtec extends javax.swing.JFrame {
             inicializarDropdownEquipamentos(); 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao registrar locação: " + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
-            e.printStackTrace(); // Para depuração
+            e.printStackTrace(); 
         }
     
     }//GEN-LAST:event_btnRegistrarActionPerformed

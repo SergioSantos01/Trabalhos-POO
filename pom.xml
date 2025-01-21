@@ -25,4 +25,12 @@
         <exec.mainClass>com.mycompany.experimento.Experimento</exec.mainClass>
     </properties>
     <name>TrabalhoPratico2</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.4</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>

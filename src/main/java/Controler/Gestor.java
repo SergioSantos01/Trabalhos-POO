@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Controler;
 
 import model.Equipamentos;
@@ -13,16 +10,12 @@ import java.util.List;
 
 public class Gestor {
 
-    /**
-     * @return the clientes
-     */
+    
     public List<Cliente> getClientes() {
         return clientes;
     }
 
-    /**
-     * @return the locacoes
-     */
+    
     public List<Locacao> getLocacoes() {
         return locacoes;
     }
