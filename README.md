@@ -33,24 +33,27 @@ O **ConstrutecManager** é um sistema para gerenciamento de locação de equipam
 ---
 
 ## **Estrutura do Projeto**
-*/Source Packages*
-    */Controler*
-        *Controlador.java         # Controle geral*
-        *Gestor.java              # Gerencia locações*
-        *GestorTeste.java         # Testes do gestor*
-    */model*
-        *Cliente.java             # Modelo de clientes*
-        *Equipamentos.java         # Modelo de equipamentos*
-        *Locacao.java             # Modelo de locações*
-        *LocacaoTeste.java       # Testes para locações*
-    */service*
-        *Relatorio.java    # Geração de relatórios*
-        *RelatorioTeste.java  # Testes para relatórios*
-    */gui*
-        *Construtec.java           # Interface gráfica principal*
+## /Source Packages
+- **/Controller**
+  - `Controlador.java` - Controle geral
+  - `Gestor.java` - Gerencia locações
+  - `GestorTeste.java` - Testes do gestor
 
-*README.md                        # Documentação do projeto*
-*pom.xml*
+- **/model**
+  - `Cliente.java` - Modelo de clientes
+  - `Equipamentos.java` - Modelo de equipamentos
+  - `Locacao.java` - Modelo de locações
+  - `LocacaoTeste.java` - Testes para locações
+
+- **/service**
+  - `Relatorio.java` - Geração de relatórios
+  - `RelatorioTeste.java` - Testes para relatórios
+
+- **/gui**
+  - `Construtec.java` - Interface gráfica principal
+
+  - `README.md` - Documentação do projeto 
+  - `pom.xml`
 
 ---
 
