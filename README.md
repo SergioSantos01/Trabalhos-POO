@@ -33,24 +33,24 @@ O **ConstrutecManager** é um sistema para gerenciamento de locação de equipam
 ---
 
 ## **Estrutura do Projeto**
-/Source Packages
-    /Controler
-        Controlador.java         # Controle geral
-        Gestor.java              # Gerencia locações
-        GestorTeste.java         # Testes do gestor
-    /model
-        Cliente.java             # Modelo de clientes
-        Equipamentos.java         # Modelo de equipamentos
-        Locacao.java             # Modelo de locações
-        LocacaoTeste.java       # Testes para locações
-    /service
-        Relatorio.java    # Geração de relatórios
-        RelatorioTeste.java  # Testes para relatórios
-    /gui
-        Construtec.java           # Interface gráfica principal
+*/Source Packages*
+    */Controler*
+        *Controlador.java         # Controle geral*
+        *Gestor.java              # Gerencia locações*
+        *GestorTeste.java         # Testes do gestor*
+    */model*
+        *Cliente.java             # Modelo de clientes*
+        *Equipamentos.java         # Modelo de equipamentos*
+        *Locacao.java             # Modelo de locações*
+        *LocacaoTeste.java       # Testes para locações*
+    */service*
+        *Relatorio.java    # Geração de relatórios*
+        *RelatorioTeste.java  # Testes para relatórios*
+    */gui*
+        *Construtec.java           # Interface gráfica principal*
 
-README.md                        # Documentação do projeto
-pom.xml
+*README.md                        # Documentação do projeto*
+*pom.xml*
 
 ---
 
@@ -82,14 +82,14 @@ pom.xml
 
 ### **Geração de Relatórios**
 - **Equipamentos mais alugados.**
-1. **Clique em Gerar Relatório Ranking de Equipamentos para visualizar os equipamentos mais alugados.**
+1. **Clique em `Gerar Relatório Ranking de Equipamentos` para visualizar os equipamentos mais alugados.**
 - **Clientes com pendências.**
-1. **Clique em Gerar Relatório Ranking de Multas de Clientes para visualizar os clientes com mais multas acumuladas.**
+1. **Clique em `Gerar Relatório Ranking de Multas de Clientes` para visualizar os clientes com mais multas acumuladas.**
 
 ---
 
 ## **Testes Automatizados**
-Os testes cobrem:
+**Os testes cobrem:**
 - **Cadastro e gerenciamento de equipamentos.**
 - **Fluxo de locação e devolução.**
 - **Cálculo de multas.**
